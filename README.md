@@ -1,6 +1,6 @@
-# Tailwind Template (HTML;Handlebars) Compiler Example
+# Tailwind Template (HTML/Handlebars) Compiler Example
 
-## Install Dependêncies
+## Install Dependencies
 
 ```sh
 npm install
