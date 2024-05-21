@@ -8,9 +8,13 @@ async function compileTailwindTemplate(html: string) {
     tailwindcss({ content: [{ raw: html, extension: "hbs" }] }),
   ]);
 
+  //   const tailwindCss = `
+  // @tailwind base;
+  // @tailwind components;
+  // @tailwind utilities;
+  // `;
+
   const tailwindCss = `
-/* @tailwind base; */
-/* @tailwind components; */
 @tailwind utilities;
 `;
 

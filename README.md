@@ -15,7 +15,7 @@ npm run start
 ## Output
 
 ```
-> tailwind-propostas@1.0.0 start
+> tailwind-compiler-example@1.0.0 start
 > ts-node main.ts
 
 ## ORIGINAL TEMPLATE ##
@@ -28,10 +28,7 @@ npm run start
 ## COMPILED TEMPLATE ##
 
 <style type="text/css">
-
-/* @tailwind base; */
-/* @tailwind components; */
-.text-\[16px\] {
+  .text-\[16px\] {
     font-size: 16px
 }
 .text-\[20px\] {
